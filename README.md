@@ -5,7 +5,7 @@ Binary and multiclass loss function for image segmentation with one-hot encoded 
 All loss functions are implemented using Keras callback structure:
 
 ```python
-def example_loss() -> Callable[[tf.Tensor, tf.Tensor], tf.Tensor:
+def example_loss() -> Callable[[tf.Tensor, tf.Tensor], tf.Tensor]:
     def loss(y_true: tf.Tensor, y_pred: tf.Tensor) -> tf.Tensor:
         pass
 
