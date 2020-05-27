@@ -1,5 +1,6 @@
 # keras-image-segmentation-loss-functions
-Binary and multiclass loss function for image segmentation with one-hot encoded masks. Implemented in Keras.
+Binary and multiclass loss function for image segmentation with one-hot encoded masks of 
+shape=(<BATCH_SIZE>, <IMAGE_HEIGHT>, <IMAGE_WIDTH>, <N_CLASSES>). Implemented in Keras.
 
 ## Loss functions
 All loss functions are implemented using Keras callback structure:
